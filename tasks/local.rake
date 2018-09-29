@@ -21,6 +21,6 @@ task :local do
   env = { 'BUNDLE_GEMFILE' => gemfile }
 
   Dir.chdir(app_folder) do
-    Bundler.with_clean_env { Kernel.exec(env, command) }
+    Bundler.with_original_env { Kernel.exec(env, command) }
   end
 end
