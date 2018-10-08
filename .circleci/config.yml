@@ -217,8 +217,3 @@ workflows:
       - ruby25rails50
       - ruby25rails51
       - ruby25rails52
-
-      - jruby92rails42
-      - jruby92rails50
-      - jruby92rails51
-      - jruby92rails52
